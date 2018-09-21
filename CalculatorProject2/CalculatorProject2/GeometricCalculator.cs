@@ -26,5 +26,13 @@ namespace CalculatorProject2
         {
 
         }
+
+        private void txtAreaTriangle_Click(object sender, EventArgs e)
+        {
+            Area_of_triangle f1 = new Area_of_triangle();
+            f1.Show();
+            Visible = false;
+
+        }
     }
 }
