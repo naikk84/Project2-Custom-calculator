@@ -21,5 +21,10 @@ namespace CalculatorProject2
         {
 
         }
+
+        private void txtAreaTrapezoid_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
