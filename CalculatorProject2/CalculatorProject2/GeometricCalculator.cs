@@ -34,5 +34,13 @@ namespace CalculatorProject2
             Visible = false;
 
         }
+
+        private void btnAreaCylinder_Click(object sender, EventArgs e)
+        {
+            Area_of_Cylinder f2 = new Area_of_Cylinder();
+            f2.Show();
+            Visible = false;
+
+        }
     }
 }

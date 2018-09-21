@@ -95,6 +95,7 @@
             this.btnAreaCylinder.TabIndex = 4;
             this.btnAreaCylinder.Text = "Area of cylinder ";
             this.btnAreaCylinder.UseVisualStyleBackColor = true;
+            this.btnAreaCylinder.Click += new System.EventHandler(this.btnAreaCylinder_Click);
             // 
             // btnAreaParallelogram
             // 
@@ -133,7 +134,7 @@
             // 
             this.btnPerimeterRectangle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPerimeterRectangle.Location = new System.Drawing.Point(385, 401);
-            this.btnPerimeterRectangle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPerimeterRectangle.Margin = new System.Windows.Forms.Padding(4);
             this.btnPerimeterRectangle.Name = "btnPerimeterRectangle";
             this.btnPerimeterRectangle.Size = new System.Drawing.Size(317, 43);
             this.btnPerimeterRectangle.TabIndex = 8;
@@ -144,7 +145,7 @@
             // 
             this.btnPerimeterTriangle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPerimeterTriangle.Location = new System.Drawing.Point(385, 452);
-            this.btnPerimeterTriangle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPerimeterTriangle.Margin = new System.Windows.Forms.Padding(4);
             this.btnPerimeterTriangle.Name = "btnPerimeterTriangle";
             this.btnPerimeterTriangle.Size = new System.Drawing.Size(317, 39);
             this.btnPerimeterTriangle.TabIndex = 9;
@@ -166,7 +167,7 @@
             this.Controls.Add(this.btnAreaRectangle);
             this.Controls.Add(this.btnAreaTrapezoid);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GeometricCalculator";
             this.Text = "Geometric Calculator";
             this.Load += new System.EventHandler(this.GeometricCalculator_Load);

@@ -43,3 +43,4 @@ C:\Users\ameya\OneDrive\Desktop\CalculatorProject2\CalculatorProject2\obj\Debug\
 C:\Users\ameya\OneDrive\Desktop\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.exe
 C:\Users\ameya\OneDrive\Desktop\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.pdb
 C:\Users\ameya\OneDrive\Desktop\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.Area_of_triangle.resources
+C:\Users\ameya\OneDrive\Desktop\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.Area_of_Cylinder.resources

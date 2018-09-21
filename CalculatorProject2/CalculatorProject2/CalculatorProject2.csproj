@@ -46,17 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Area of triangle.cs">
+    <Compile Include="Area_of_triangle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Area of triangle.Designer.cs">
-      <DependentUpon>Area of triangle.cs</DependentUpon>
+    <Compile Include="Area_of_triangle.Designer.cs">
+      <DependentUpon>Area_of_triangle.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area_of_cylinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area_of_cylinder.Designer.cs">
+      <DependentUpon>Area_of_cylinder.cs</DependentUpon>
     </Compile>
     <Compile Include="GeometricCalculator.cs">
       <SubType>Form</SubType>
@@ -66,11 +72,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Area of triangle.resx">
-      <DependentUpon>Area of triangle.cs</DependentUpon>
+    <EmbeddedResource Include="Area_of_triangle.resx">
+      <DependentUpon>Area_of_triangle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area_of_cylinder.resx">
+      <DependentUpon>Area_of_cylinder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GeometricCalculator.resx">
       <DependentUpon>GeometricCalculator.cs</DependentUpon>
