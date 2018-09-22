@@ -26,5 +26,25 @@ namespace CalculatorProject2
         {
 
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.Exit();
+        }
+
+        private void btnAreaParallelogram_Click(object sender, EventArgs e)
+        {
+            AreaofParallelogram form = new AreaofParallelogram();
+            form.Show();
+            Visible = false;
+        }
+
+        private void btnAreaEllipse_Click(object sender, EventArgs e)
+        {
+            AreaofEllipse f1 = new AreaofEllipse();
+            f1.Show();
+            Visible = false;
+        }
     }
 }

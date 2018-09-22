@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="loadsplash.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="loadsplash.Designer.cs">
+      <DependentUpon>loadsplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AreaofParallelogram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaofParallelogram.Designer.cs">
+      <DependentUpon>AreaofParallelogram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AreaofEllipse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaofEllipse.Designer.cs">
+      <DependentUpon>AreaofEllipse.cs</DependentUpon>
     </Compile>
     <Compile Include="GeometricCalculator.cs">
       <SubType>Form</SubType>
@@ -60,8 +72,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="AreaofEllipse.resx">
+      <DependentUpon>AreaofEllipse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AreaofParallelogram.resx">
+      <DependentUpon>AreaofParallelogram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loadsplash.resx">
+      <DependentUpon>loadsplash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GeometricCalculator.resx">
       <DependentUpon>GeometricCalculator.cs</DependentUpon>

@@ -24,10 +24,12 @@ C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorP
 C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\bin\Debug\CalculatorProject2.exe
 C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\bin\Debug\CalculatorProject2.pdb
 C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.csprojAssemblyReference.cache
-C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.Form1.resources
 C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.GeometricCalculator.resources
 C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.Properties.Resources.resources
 C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.csproj.GenerateResource.cache
 C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.csproj.CoreCompileInputs.cache
 C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.exe
 C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.pdb
+C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.AreaofParallelogram.resources
+C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.loadsplash.resources
+C:\Users\naikk\Desktop\.Net programming\Project 2\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.AreaofEllipse.resources
