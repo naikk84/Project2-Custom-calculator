@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Area of triangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area of triangle.designer.cs">
+      <DependentUpon>Area of triangle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area_of_cylinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area_of_cylinder.Designer.cs">
+      <DependentUpon>Area_of_cylinder.cs</DependentUpon>
+    </Compile>
     <Compile Include="loadsplash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,11 +84,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Area of triangle.resx">
+      <DependentUpon>Area of triangle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AreaofEllipse.resx">
       <DependentUpon>AreaofEllipse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AreaofParallelogram.resx">
       <DependentUpon>AreaofParallelogram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area_of_cylinder.resx">
+      <DependentUpon>Area_of_cylinder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loadsplash.resx">
       <DependentUpon>loadsplash.cs</DependentUpon>
@@ -92,6 +110,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -105,6 +124,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50-Beautiful-and-Minimalist-Presentation-Backgrounds-022.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

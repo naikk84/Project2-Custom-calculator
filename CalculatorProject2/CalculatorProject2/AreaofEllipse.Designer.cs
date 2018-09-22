@@ -44,6 +44,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(212, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 13);
@@ -53,6 +55,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(212, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 13);
@@ -62,6 +66,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(212, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 13);
@@ -70,28 +76,32 @@
             // 
             // btnCalculate
             // 
+            this.btnCalculate.BackColor = System.Drawing.Color.White;
             this.btnCalculate.Location = new System.Drawing.Point(215, 204);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
             this.btnCalculate.TabIndex = 3;
             this.btnCalculate.Text = "&Calculate";
-            this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.UseVisualStyleBackColor = false;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // btnExit
             // 
+            this.btnExit.BackColor = System.Drawing.Color.White;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.Location = new System.Drawing.Point(361, 204);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "E&xit";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(526, 49);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(94, 13);
@@ -109,7 +119,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(277, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(170, 25);
@@ -147,6 +159,7 @@
             this.AcceptButton = this.btnCalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::CalculatorProject2.Properties.Resources._50_Beautiful_and_Minimalist_Presentation_Backgrounds_022;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(800, 327);
             this.Controls.Add(this.txtArea);

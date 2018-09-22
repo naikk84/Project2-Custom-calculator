@@ -46,5 +46,19 @@ namespace CalculatorProject2
             f1.Show();
             Visible = false;
         }
+
+        private void btnAreaTriangle_Click(object sender, EventArgs e)
+        {
+            Area_of_triangle f2 = new Area_of_triangle();
+            f2.Show();
+            Visible = false;
+        }
+
+        private void btnAreaCylinder_Click(object sender, EventArgs e)
+        {
+            Area_of_Cylinder f3 = new Area_of_Cylinder();
+            f3.Show();
+            Visible = false;
+        }
     }
 }

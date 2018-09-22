@@ -33,6 +33,8 @@ namespace CalculatorProject2
             txtArea.Text = a.ToString();
             string history = "X-Axis:- " + txtxAxis.Text + " " + "Y-Axis:- " + txtyAxis.Text + " " + "Area:- " + txtArea.Text + "\n";
             label5.Text = label5.Text + history;
+            label5.ForeColor = Color.White;
+            label5.BackColor = Color.Transparent;
             txtxAxis.Focus();
         }
     }
