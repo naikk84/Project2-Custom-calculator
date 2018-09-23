@@ -36,10 +36,10 @@ namespace CalculatorProject2
             decimal area;
 
 
-            area = (((2*22*h)/7)+((2*22*r)/7));
-
+            area = (((2*22*h*r)/7)+((2*22*r*r)/7));
+            area = Math.Round(area, 2);
             txtarea.Text = area.ToString();
-            string history = "Height:-" + txtheight.Text + "Radius:-" + txtradius.Text + "Area:-" + txtarea.Text + "\n";
+            string history = "Height:- "+ txtheight.Text + " " + "Radius:- " + txtradius.Text + " " + "Area:- " + txtarea.Text + "\n";
             label5.Text = label5.Text + history;
             label5.ForeColor = Color.White;
             label5.BackColor = Color.Transparent;

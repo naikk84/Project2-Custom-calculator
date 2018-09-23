@@ -27,9 +27,9 @@ namespace CalculatorProject2
 
 
            area = (b*h)/2;
-
+            area = Math.Round(area, 2);
             txtresult.Text = area.ToString();
-            string history = "Height:-" + txtheight.Text + "Base:-" + txtbase.Text + "Area:-" + txtresult.Text + "\n";
+            string history = "Height:- " + txtheight.Text + " " + "Base:- " + txtbase.Text + " " + "Area:- " + txtresult.Text + "\n";
             label6.Text = label6.Text + history;
             label6.ForeColor = Color.White;
             label6.BackColor = Color.Transparent;

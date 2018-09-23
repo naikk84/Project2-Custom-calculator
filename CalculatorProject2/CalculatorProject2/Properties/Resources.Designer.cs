@@ -63,9 +63,109 @@ namespace CalculatorProject2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0 {
+            get {
+                object obj = ResourceManager.GetObject("0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _01 {
+            get {
+                object obj = ResourceManager.GetObject("01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _50_Beautiful_and_Minimalist_Presentation_Backgrounds_022 {
             get {
                 object obj = ResourceManager.GetObject("50-Beautiful-and-Minimalist-Presentation-Backgrounds-022", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6CC3DE8F_6328_433B_FE2A_B9A7BE4617BA {
+            get {
+                object obj = ResourceManager.GetObject("6CC3DE8F-6328-433B-FE2A-B9A7BE4617BA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Alg1_7_2_46_diagram_thumb_lg {
+            get {
+                object obj = ResourceManager.GetObject("Alg1_7_2_46-diagram_thumb-lg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap C_Program_Area_Of_Parallelogram {
+            get {
+                object obj = ResourceManager.GetObject("C_Program_Area_Of_Parallelogram", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Perimeter_of_a_Triangle {
+            get {
+                object obj = ResourceManager.GetObject("Perimeter-of-a-Triangle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap picture_cyinder_formula_area {
+            get {
+                object obj = ResourceManager.GetObject("picture-cyinder-formula-area", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RECTANGLE_Area_image {
+            get {
+                object obj = ResourceManager.GetObject("RECTANGLE_Area_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap slide_3 {
+            get {
+                object obj = ResourceManager.GetObject("slide_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xarea_trapezoid_png_pagespeed_ic_7uV1GNQvkA {
+            get {
+                object obj = ResourceManager.GetObject("xarea-trapezoid.png.pagespeed.ic.7uV1GNQvkA", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

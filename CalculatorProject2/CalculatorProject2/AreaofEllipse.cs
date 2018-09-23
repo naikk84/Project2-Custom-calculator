@@ -30,6 +30,7 @@ namespace CalculatorProject2
             decimal y = Convert.ToDecimal(txtyAxis.Text);
             decimal a;
             a = (22 * x * y)/7;
+            a = Math.Round(a, 2);
             txtArea.Text = a.ToString();
             string history = "X-Axis:- " + txtxAxis.Text + " " + "Y-Axis:- " + txtyAxis.Text + " " + "Area:- " + txtArea.Text + "\n";
             label5.Text = label5.Text + history;

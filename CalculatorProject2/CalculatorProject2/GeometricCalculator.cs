@@ -24,7 +24,9 @@ namespace CalculatorProject2
 
         private void txtAreaTrapezoid_Click(object sender, EventArgs e)
         {
-
+            Area_of_trapezoid f4 = new Area_of_trapezoid();
+            f4.Show();
+            Visible = false;
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -58,6 +60,27 @@ namespace CalculatorProject2
         {
             Area_of_Cylinder f3 = new Area_of_Cylinder();
             f3.Show();
+            Visible = false;
+        }
+
+        private void btnAreaRectangle_Click(object sender, EventArgs e)
+        {
+            AreaofRectangle f5 = new AreaofRectangle();
+            f5.Show();
+            Visible = false;
+        }
+
+        private void btnPerimeterRectangle_Click(object sender, EventArgs e)
+        {
+            Perimeter_of_Rectangle f6 = new Perimeter_of_Rectangle();
+            f6.Show();
+            Visible = false;
+        }
+
+        private void btnPerimeterTriangle_Click(object sender, EventArgs e)
+        {
+            Perimeter_of_triangle f7 = new Perimeter_of_triangle();
+            f7.Show();
             Visible = false;
         }
     }

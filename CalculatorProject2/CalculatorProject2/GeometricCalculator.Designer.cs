@@ -78,6 +78,7 @@
             this.btnAreaRectangle.TabIndex = 2;
             this.btnAreaRectangle.Text = "Area of rectangle ";
             this.btnAreaRectangle.UseVisualStyleBackColor = false;
+            this.btnAreaRectangle.Click += new System.EventHandler(this.btnAreaRectangle_Click);
             // 
             // btnAreaTriangle
             // 
@@ -153,6 +154,7 @@
             this.btnPerimeterRectangle.TabIndex = 8;
             this.btnPerimeterRectangle.Text = "Perimeter of Rectangle";
             this.btnPerimeterRectangle.UseVisualStyleBackColor = false;
+            this.btnPerimeterRectangle.Click += new System.EventHandler(this.btnPerimeterRectangle_Click);
             // 
             // btnPerimeterTriangle
             // 
@@ -164,6 +166,7 @@
             this.btnPerimeterTriangle.TabIndex = 9;
             this.btnPerimeterTriangle.Text = "Perimeter of Triangle";
             this.btnPerimeterTriangle.UseVisualStyleBackColor = false;
+            this.btnPerimeterTriangle.Click += new System.EventHandler(this.btnPerimeterTriangle_Click);
             // 
             // btnExit
             // 
@@ -181,7 +184,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CalculatorProject2.Properties.Resources._50_Beautiful_and_Minimalist_Presentation_Backgrounds_022;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnExit);

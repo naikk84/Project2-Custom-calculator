@@ -30,6 +30,7 @@ namespace CalculatorProject2
             decimal h = Convert.ToDecimal(txtHeight.Text);
             decimal a;
             a = b * h;
+            a = Math.Round(a, 2);
             txtArea.Text = a.ToString();
             string history = "Base:- " + txtBase.Text + " " + "Height:- " + txtHeight.Text + " " + "Area:- " + txtArea.Text + "\n";
             label5.Text = label5.Text + history;

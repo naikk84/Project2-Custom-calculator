@@ -39,6 +39,8 @@
             this.txtxAxis = new System.Windows.Forms.MaskedTextBox();
             this.txtyAxis = new System.Windows.Forms.MaskedTextBox();
             this.txtArea = new System.Windows.Forms.MaskedTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -46,7 +48,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(212, 77);
+            this.label1.Location = new System.Drawing.Point(271, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 13);
             this.label1.TabIndex = 0;
@@ -57,7 +59,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(212, 106);
+            this.label2.Location = new System.Drawing.Point(271, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 13);
             this.label2.TabIndex = 1;
@@ -68,7 +70,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(212, 141);
+            this.label3.Location = new System.Drawing.Point(271, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 13);
             this.label3.TabIndex = 2;
@@ -77,7 +79,7 @@
             // btnCalculate
             // 
             this.btnCalculate.BackColor = System.Drawing.Color.White;
-            this.btnCalculate.Location = new System.Drawing.Point(215, 204);
+            this.btnCalculate.Location = new System.Drawing.Point(274, 194);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
             this.btnCalculate.TabIndex = 3;
@@ -89,7 +91,7 @@
             // 
             this.btnExit.BackColor = System.Drawing.Color.White;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(361, 204);
+            this.btnExit.Location = new System.Drawing.Point(386, 194);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 4;
@@ -130,7 +132,7 @@
             // 
             // txtxAxis
             // 
-            this.txtxAxis.Location = new System.Drawing.Point(302, 74);
+            this.txtxAxis.Location = new System.Drawing.Point(361, 74);
             this.txtxAxis.Name = "txtxAxis";
             this.txtxAxis.Size = new System.Drawing.Size(100, 20);
             this.txtxAxis.TabIndex = 1;
@@ -138,7 +140,7 @@
             // 
             // txtyAxis
             // 
-            this.txtyAxis.Location = new System.Drawing.Point(302, 106);
+            this.txtyAxis.Location = new System.Drawing.Point(361, 106);
             this.txtyAxis.Name = "txtyAxis";
             this.txtyAxis.Size = new System.Drawing.Size(100, 20);
             this.txtyAxis.TabIndex = 2;
@@ -146,7 +148,7 @@
             // 
             // txtArea
             // 
-            this.txtArea.Location = new System.Drawing.Point(302, 138);
+            this.txtArea.Location = new System.Drawing.Point(361, 138);
             this.txtArea.Name = "txtArea";
             this.txtArea.ReadOnly = true;
             this.txtArea.Size = new System.Drawing.Size(100, 20);
@@ -154,14 +156,25 @@
             this.txtArea.TabStop = false;
             this.txtArea.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CalculatorProject2.Properties.Resources._6CC3DE8F_6328_433B_FE2A_B9A7BE4617BA;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(216, 164);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // AreaofEllipse
             // 
             this.AcceptButton = this.btnCalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CalculatorProject2.Properties.Resources._50_Beautiful_and_Minimalist_Presentation_Backgrounds_022;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(800, 327);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtArea);
             this.Controls.Add(this.txtyAxis);
             this.Controls.Add(this.txtxAxis);
@@ -176,6 +189,7 @@
             this.Name = "AreaofEllipse";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Area of Ellipse";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -194,5 +208,6 @@
         private System.Windows.Forms.MaskedTextBox txtxAxis;
         private System.Windows.Forms.MaskedTextBox txtyAxis;
         private System.Windows.Forms.MaskedTextBox txtArea;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

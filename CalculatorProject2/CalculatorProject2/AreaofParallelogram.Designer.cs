@@ -39,6 +39,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -46,7 +48,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(282, 83);
+            this.label1.Location = new System.Drawing.Point(297, 83);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 13);
             this.label1.TabIndex = 0;
@@ -57,7 +59,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(282, 110);
+            this.label2.Location = new System.Drawing.Point(297, 110);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 1;
@@ -68,7 +70,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(219, 137);
+            this.label3.Location = new System.Drawing.Point(234, 137);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 13);
             this.label3.TabIndex = 2;
@@ -77,7 +79,7 @@
             // btnCalculate
             // 
             this.btnCalculate.BackColor = System.Drawing.Color.White;
-            this.btnCalculate.Location = new System.Drawing.Point(269, 191);
+            this.btnCalculate.Location = new System.Drawing.Point(284, 191);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
             this.btnCalculate.TabIndex = 3;
@@ -89,7 +91,7 @@
             // 
             this.btnExit.BackColor = System.Drawing.Color.White;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(394, 191);
+            this.btnExit.Location = new System.Drawing.Point(409, 191);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 4;
@@ -99,7 +101,7 @@
             // 
             // txtBase
             // 
-            this.txtBase.Location = new System.Drawing.Point(334, 80);
+            this.txtBase.Location = new System.Drawing.Point(349, 80);
             this.txtBase.Name = "txtBase";
             this.txtBase.Size = new System.Drawing.Size(135, 20);
             this.txtBase.TabIndex = 0;
@@ -107,7 +109,7 @@
             // 
             // txtHeight
             // 
-            this.txtHeight.Location = new System.Drawing.Point(334, 110);
+            this.txtHeight.Location = new System.Drawing.Point(349, 110);
             this.txtHeight.Name = "txtHeight";
             this.txtHeight.Size = new System.Drawing.Size(135, 20);
             this.txtHeight.TabIndex = 1;
@@ -115,7 +117,7 @@
             // 
             // txtArea
             // 
-            this.txtArea.Location = new System.Drawing.Point(334, 137);
+            this.txtArea.Location = new System.Drawing.Point(349, 137);
             this.txtArea.Name = "txtArea";
             this.txtArea.ReadOnly = true;
             this.txtArea.Size = new System.Drawing.Size(135, 20);
@@ -154,14 +156,25 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Area of Parallelogram";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CalculatorProject2.Properties.Resources.C_Program_Area_Of_Parallelogram;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 50);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(216, 164);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // AreaofParallelogram
             // 
             this.AcceptButton = this.btnCalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CalculatorProject2.Properties.Resources._50_Beautiful_and_Minimalist_Presentation_Backgrounds_022;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(784, 320);
+            this.ClientSize = new System.Drawing.Size(784, 298);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -176,6 +189,7 @@
             this.Name = "AreaofParallelogram";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Area of Parallelogram";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -194,5 +208,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

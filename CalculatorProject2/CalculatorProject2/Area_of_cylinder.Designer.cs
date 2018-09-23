@@ -39,6 +39,8 @@
             this.txtarea = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -47,7 +49,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(197, 46);
+            this.label1.Location = new System.Drawing.Point(303, 65);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(36, 13);
@@ -60,7 +62,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(196, 107);
+            this.label2.Location = new System.Drawing.Point(303, 124);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
@@ -73,7 +75,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(196, 170);
+            this.label3.Location = new System.Drawing.Point(259, 189);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 13);
@@ -97,7 +99,7 @@
             // btncalculate
             // 
             this.btncalculate.BackColor = System.Drawing.Color.White;
-            this.btncalculate.Location = new System.Drawing.Point(172, 236);
+            this.btncalculate.Location = new System.Drawing.Point(235, 236);
             this.btncalculate.Margin = new System.Windows.Forms.Padding(2);
             this.btncalculate.Name = "btncalculate";
             this.btncalculate.Size = new System.Drawing.Size(81, 27);
@@ -110,7 +112,7 @@
             // 
             this.btnExit.BackColor = System.Drawing.Color.White;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(308, 236);
+            this.btnExit.Location = new System.Drawing.Point(345, 236);
             this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(80, 27);
@@ -121,29 +123,29 @@
             // 
             // txtheight
             // 
-            this.txtheight.Location = new System.Drawing.Point(289, 46);
+            this.txtheight.Location = new System.Drawing.Point(345, 65);
             this.txtheight.Margin = new System.Windows.Forms.Padding(2);
             this.txtheight.Name = "txtheight";
-            this.txtheight.Size = new System.Drawing.Size(76, 20);
+            this.txtheight.Size = new System.Drawing.Size(72, 20);
             this.txtheight.TabIndex = 1;
             this.txtheight.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtradius
             // 
-            this.txtradius.Location = new System.Drawing.Point(289, 105);
+            this.txtradius.Location = new System.Drawing.Point(345, 124);
             this.txtradius.Margin = new System.Windows.Forms.Padding(2);
             this.txtradius.Name = "txtradius";
-            this.txtradius.Size = new System.Drawing.Size(76, 20);
+            this.txtradius.Size = new System.Drawing.Size(72, 20);
             this.txtradius.TabIndex = 2;
             this.txtradius.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtarea
             // 
-            this.txtarea.Location = new System.Drawing.Point(289, 170);
+            this.txtarea.Location = new System.Drawing.Point(345, 189);
             this.txtarea.Margin = new System.Windows.Forms.Padding(2);
             this.txtarea.Name = "txtarea";
             this.txtarea.ReadOnly = true;
-            this.txtarea.Size = new System.Drawing.Size(76, 20);
+            this.txtarea.Size = new System.Drawing.Size(72, 20);
             this.txtarea.TabIndex = 8;
             this.txtarea.TabStop = false;
             this.txtarea.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -169,14 +171,25 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Area Of Cylinder";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CalculatorProject2.Properties.Resources.picture_cyinder_formula_area;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 49);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(216, 164);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // Area_of_Cylinder
             // 
             this.AcceptButton = this.btncalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CalculatorProject2.Properties.Resources._50_Beautiful_and_Minimalist_Presentation_Backgrounds_022;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(694, 366);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtarea);
@@ -193,6 +206,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "area of cylinder";
             this.Load += new System.EventHandler(this.Form2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,5 +225,6 @@
         private System.Windows.Forms.TextBox txtarea;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

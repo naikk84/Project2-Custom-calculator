@@ -48,3 +48,7 @@ C:\Users\naikk\Desktop\.Net programming\Project 2\Project2-Custom-calculator-Kun
 C:\Users\naikk\Desktop\.Net programming\Project 2\Project2-Custom-calculator-Kunal\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.csproj.CoreCompileInputs.cache
 C:\Users\naikk\Desktop\.Net programming\Project 2\Project2-Custom-calculator-Kunal\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.exe
 C:\Users\naikk\Desktop\.Net programming\Project 2\Project2-Custom-calculator-Kunal\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.pdb
+C:\Users\naikk\Desktop\.Net programming\Project 2\Project2-Custom-calculator-Kunal\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.Area_of_trapezoid.resources
+C:\Users\naikk\Desktop\.Net programming\Project 2\Project2-Custom-calculator-Kunal\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.AreaofRectangle.resources
+C:\Users\naikk\Desktop\.Net programming\Project 2\Project2-Custom-calculator-Kunal\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.Perimeter_of_Rectangle.resources
+C:\Users\naikk\Desktop\.Net programming\Project 2\Project2-Custom-calculator-Kunal\CalculatorProject2\CalculatorProject2\obj\Debug\CalculatorProject2.Perimeter_of_triangle.resources
