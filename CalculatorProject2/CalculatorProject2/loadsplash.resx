@@ -117,38 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="6CC3DE8F-6328-433B-FE2A-B9A7BE4617BA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\6CC3DE8F-6328-433B-FE2A-B9A7BE4617BA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Alg1_7_2_46-diagram_thumb-lg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Alg1_7_2_46-diagram_thumb-lg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="xarea-trapezoid.png.pagespeed.ic.7uV1GNQvkA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\xarea-trapezoid.png.pagespeed.ic.7uV1GNQvkA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="picture-cyinder-formula-area" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture-cyinder-formula-area.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="C_Program_Area_Of_Parallelogram" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\C_Program_Area_Of_Parallelogram.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="50-Beautiful-and-Minimalist-Presentation-Backgrounds-022" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\50-Beautiful-and-Minimalist-Presentation-Backgrounds-022.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RECTANGLE_Area_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RECTANGLE_Area_image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="slide_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\slide_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Perimeter-of-a-Triangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Perimeter-of-a-Triangle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>118, 17</value>
+  </metadata>
 </root>

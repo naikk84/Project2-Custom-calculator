@@ -46,11 +46,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Area of trapezoid.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Area of trapezoid.Designer.cs">
+      <DependentUpon>Area of trapezoid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area of triangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area of triangle.designer.cs">
+      <DependentUpon>Area of triangle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AreaofRectangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaofRectangle.Designer.cs">
+      <DependentUpon>AreaofRectangle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area_of_cylinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area_of_cylinder.Designer.cs">
+      <DependentUpon>Area_of_cylinder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loadsplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loadsplash.Designer.cs">
+      <DependentUpon>loadsplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AreaofParallelogram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaofParallelogram.Designer.cs">
+      <DependentUpon>AreaofParallelogram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AreaofEllipse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaofEllipse.Designer.cs">
+      <DependentUpon>AreaofEllipse.cs</DependentUpon>
     </Compile>
     <Compile Include="GeometricCalculator.cs">
       <SubType>Form</SubType>
@@ -58,13 +94,49 @@
     <Compile Include="GeometricCalculator.Designer.cs">
       <DependentUpon>GeometricCalculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="Perimeter_of_Rectangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perimeter_of_Rectangle.Designer.cs">
+      <DependentUpon>Perimeter_of_Rectangle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perimeter_of_triangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perimeter_of_triangle.Designer.cs">
+      <DependentUpon>Perimeter_of_triangle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Area of trapezoid.resx">
+      <DependentUpon>Area of trapezoid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area of triangle.resx">
+      <DependentUpon>Area of triangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AreaofEllipse.resx">
+      <DependentUpon>AreaofEllipse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AreaofParallelogram.resx">
+      <DependentUpon>AreaofParallelogram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AreaofRectangle.resx">
+      <DependentUpon>AreaofRectangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area_of_cylinder.resx">
+      <DependentUpon>Area_of_cylinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loadsplash.resx">
+      <DependentUpon>loadsplash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GeometricCalculator.resx">
       <DependentUpon>GeometricCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perimeter_of_Rectangle.resx">
+      <DependentUpon>Perimeter_of_Rectangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perimeter_of_triangle.resx">
+      <DependentUpon>Perimeter_of_triangle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,6 +146,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,6 +160,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50-Beautiful-and-Minimalist-Presentation-Backgrounds-022.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xarea-trapezoid.png.pagespeed.ic.7uV1GNQvkA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slide_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C_Program_Area_Of_Parallelogram.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture-cyinder-formula-area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6CC3DE8F-6328-433B-FE2A-B9A7BE4617BA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RECTANGLE_Area_image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alg1_7_2_46-diagram_thumb-lg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perimeter-of-a-Triangle.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
